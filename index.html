@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Onion · Separar stems no seu computador</title>
+<meta name="description" content="Onion separa voz, bateria, baixo, guitarra, piano e o resto de qualquer música, no seu computador, sem enviar nada pra internet. Grátis.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Onion">
+<meta property="og:description" content="Toda música tem camadas. Separe cada uma no seu computador, de graça.">
+<meta property="og:image" content="https://lucasegydio.github.io/onion/vid/on-mesa.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23B07CFF'/%3E%3Cpath d='M16 6c4 3 7 6.4 7 10.3a7 7 0 0 1-14 0C9 12.4 12 9 16 6z' fill='none' stroke='%23111' stroke-width='2.6'/%3E%3Cpath d='M16 12.3c1.7 1.5 2.6 3 2.6 4.5a2.6 2.6 0 0 1-5.2 0c0-1.5.9-3 2.6-4.5z' fill='%23111'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="familia.css?v=1ddf5d66">
+<link rel="stylesheet" href="site.css?v=2">
+<script src="familia.js?v=1ddf5d66" defer></script>
+<script type="module" src="cebola.js"></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<!--fam:barra--><nav class="fam" aria-label="Programas"><div class="wrap fam-in"><a class="fam-home" href="https://lucasegydio.github.io/"><svg viewBox="0 0 24 24" fill="none" stroke="#E0B100" style="color:#E0B100" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke-width="4"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></svg>mind</a><a href="https://lucasegydio.github.io/soundboy/"><svg viewBox="0 0 24 24" fill="none" stroke="#1FB5A8" style="color:#1FB5A8" aria-hidden="true"><circle cx="12" cy="8" r="4.5" fill="currentColor" stroke="none"/><path d="M2 16c3.3-2.6 6.7-2.6 10 0s6.7 2.6 10 0M2 21c3.3-2.6 6.7-2.6 10 0s6.7 2.6 10 0" stroke-width="2.6"/></svg>SoundBoy</a><a href="https://lucasegydio.github.io/vision/"><svg viewBox="0 0 24 24" fill="none" stroke="#FF5B00" style="color:#FF5B00" aria-hidden="true"><circle cx="7" cy="12" r="5" stroke-width="3.5"/><circle cx="17" cy="12" r="5" stroke-width="3.5"/></svg>Vision</a><a href="https://lucasegydio.github.io/onion/" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="#B07CFF" style="color:#B07CFF" aria-hidden="true"><path d="M12 2.5c4.3 3.2 7.5 6.8 7.5 11a7.5 7.5 0 0 1-15 0c0-4.2 3.2-7.8 7.5-11z" stroke-width="3"/><path d="M12 9c1.8 1.6 2.8 3.2 2.8 4.8a2.8 2.8 0 0 1-5.6 0c0-1.6 1-3.2 2.8-4.8z" fill="currentColor" stroke="none"/></svg>Onion</a></div></nav><!--/fam:barra-->
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#topo"><svg viewBox="0 0 24 24" fill="none" stroke="#B07CFF" aria-hidden="true"><path d="M12 2.5c4.3 3.2 7.5 6.8 7.5 11a7.5 7.5 0 0 1-15 0c0-4.2 3.2-7.8 7.5-11z" stroke-width="3"/><path d="M12 9c1.8 1.6 2.8 3.2 2.8 4.8a2.8 2.8 0 0 1-5.6 0c0-1.6 1-3.2 2.8-4.8z" fill="#B07CFF" stroke="none"/></svg>Onion</a>
+    <nav class="nav-links" aria-label="Seções">
+      <a href="#mesa">Mesa</a><a href="#modos">Modos</a><a href="#tempo">Tempo</a><a href="#perguntas">Perguntas</a>
+    </nav>
+    <a class="pill" href="#baixar">Baixar</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<section class="hero" id="topo">
+  <div class="wrap">
+    <h1>Toda música tem camadas.</h1>
+    <p class="lead"><b>O Onion separa voz, bateria, baixo, guitarra, piano e o resto</b> de qualquer faixa, no seu computador, sem mandar nada pra internet.</p>
+    <div class="hero-cta"><a class="btn" href="#baixar">Baixar para Windows</a><a class="more" href="#mesa">Ver a mesa</a></div>
+    <p class="hero-note">Grátis. Sem conta, sem upload.</p>
+  </div>
+  <div class="wrap cebola-wrap">
+    <div class="cebola" data-cebola role="img" aria-label="Uma cebola cortada ao meio: cada casca é uma parte da música, e o som fica no núcleo"></div>
+    <div class="stems" role="group" aria-label="Ouvir uma camada">
+      <button data-stem="0" style="--c:#B07CFF" aria-pressed="false">Voz</button><button data-stem="1" style="--c:#FF5B00" aria-pressed="false">Bateria</button><button data-stem="2" style="--c:#1FB5A8" aria-pressed="false">Baixo</button><button data-stem="3" style="--c:#FF4D8D" aria-pressed="false">Guitarra</button><button data-stem="4" style="--c:#4DA3FF" aria-pressed="false">Piano</button><button data-stem="5" style="--c:#FFD12E" aria-pressed="false">Outros</button>
+    </div>
+  </div>
+</section>
+
+<section class="scene" id="mesa">
+  <div class="scene-head reveal">
+    <h2>Ouça antes de salvar.</h2>
+    <p class="lead"><b>A mesa toca tudo junto.</b> Tire a voz, deixe só a bateria, mexa no volume de cada parte e exporte só o que você precisa.</p>
+  </div>
+  <div class="scene-media">
+    <figure class="device"><div class="device-screen"><video data-src="vid/on-mesa.mp4" poster="vid/on-mesa.jpg" muted loop playsinline aria-label="A mesa do Onion passando por acapella, instrumental e só bateria"></video></div><div class="device-base"></div></figure>
+  </div>
+</section>
+
+<section class="scene soft" id="modos">
+  <div class="scene-head reveal">
+    <h2>Os melhores modelos abertos.</h2>
+    <p class="lead"><b>A voz sai do BS-Roformer e o resto do Demucs v4</b>, os mesmos que a turma do UVR usa, só que sem linha de comando e sem configurar nada. Você arrasta a música e pronto.</p>
+  </div>
+  <div class="wrap cards modos" style="--n:5">
+    <div class="card text reveal"><h3>4 stems</h3><p class="lead">Voz, bateria, baixo e outros.</p></div>
+    <div class="card text reveal"><h3>6 stems</h3><p class="lead">Mais guitarra e piano.</p></div>
+    <div class="card text reveal"><h3>Acapella</h3><p class="lead">Só a voz.</p></div>
+    <div class="card text reveal"><h3>Instrumental</h3><p class="lead">Tudo menos a voz.</p></div>
+    <div class="card text reveal"><h3>Rápido</h3><p class="lead">4 stems de uma vez.</p></div>
+  </div>
+</section>
+
+<section class="scene" id="tempo">
+  <div class="scene-head reveal">
+    <h2>Pronto em minutos.</h2>
+    <p class="lead"><b>Numa faixa de 3 minutos, com uma placa NVIDIA RTX 2060.</b> Sem placa NVIDIA funciona igual, só que bem mais devagar.</p>
+  </div>
+  <div class="wrap times">
+    <div class="reveal"><b>25 s</b><span>Rápido</span></div>
+    <div class="reveal"><b>2 min</b><span>6 stems</span></div>
+    <div class="reveal"><b>2½ min</b><span>4 stems com a voz no Roformer</span></div>
+  </div>
+</section>
+
+<!--fam:ficha--><section class="fam-ficha" id="ficha"><div class="wrap"><div class="fam-ficha-top"><h2>Ficha técnica.</h2><p class="fam-code">Onion 0.9.3</p></div><dl class="fam-specs"><div><dt>Stems</dt><dd>Voz, bateria, baixo, guitarra, piano e outros</dd></div><div><dt>Voz</dt><dd>BS-Roformer</dd></div><div><dt>Instrumental</dt><dd>Demucs v4</dd></div><div><dt>Saída</dt><dd>FLAC, um arquivo por stem</dd></div><div><dt>Por faixa</dt><dd>25 s a 2,5 min com NVIDIA</dd></div><div><dt>Motor</dt><dd>5,6 GB com NVIDIA, 1,5 GB sem</dd></div><div><dt>Modelos</dt><dd>1,1 GB, na primeira vez</dd></div><div><dt>Internet</dt><dd>Só pra baixar o motor</dd></div><div><dt>Sistema</dt><dd>Windows 10 e 11 · Mac em breve</dd></div><div><dt>Instalador</dt><dd>205 MB, sem administrador</dd></div><div><dt>Conta</dt><dd>Nenhuma</dd></div><div><dt>Preço</dt><dd>Grátis</dd></div></dl></div></section><!--/fam:ficha-->
+
+<!--fam:juntos--><section class="fam-juntos"><div class="wrap"><div class="fam-head"><h2>Feitos pra andar juntos.</h2><p class="lead"><b>O que você separa aqui toca nos pads do Vision.</b> E a sua biblioteca continua no SoundBoy, igualzinha.</p></div><div class="fam-glass"><a class="fam-tile reveal" href="https://lucasegydio.github.io/soundboy/" style="--c:#1FB5A8;--tx:#fff"><canvas class="fam-art" data-art="glass" data-c="#1FB5A8,#b8fff6,#5fd6c9,#f2c9a4" data-base="#0d7d74" aria-hidden="true"></canvas><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#fff" style="color:#fff" aria-hidden="true"><circle cx="12" cy="8" r="4.5" fill="currentColor" stroke="none"/><path d="M2 16c3.3-2.6 6.7-2.6 10 0s6.7 2.6 10 0M2 21c3.3-2.6 6.7-2.6 10 0s6.7 2.6 10 0" stroke-width="2.6"/></svg><b>SoundBoy</b><p>A sua biblioteca com capa, letra e luz.</p><span class="go">Conhecer</span></a><a class="fam-tile reveal" href="https://lucasegydio.github.io/vision/" style="--c:#FF5B00;--tx:#fff"><canvas class="fam-art" data-art="glass" data-c="#FF5B00,#ffb38a,#ff2d55,#ffd166" data-base="#8a2400" aria-hidden="true"></canvas><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#fff" style="color:#fff" aria-hidden="true"><circle cx="7" cy="12" r="5" stroke-width="3.5"/><circle cx="17" cy="12" r="5" stroke-width="3.5"/></svg><b>Vision</b><p>Dois decks e stems, sem assinatura.</p><span class="go">Conhecer</span></a><a class="fam-tile reveal" href="https://lucasegydio.github.io/" style="--c:#FFD12E;--tx:#111"><canvas class="fam-art" data-art="glass" data-c="#FFD12E,#fff3b0,#ff9a3c,#ffe066" data-base="#d9a400" aria-hidden="true"></canvas><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#111" style="color:#111" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke-width="4"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></svg><b>mind</b><p>Ouvir, tocar e separar.</p><span class="go">Ver os três</span></a><div class="fam-line" aria-hidden="true"><svg viewBox="0 0 1000 24" preserveAspectRatio="none"><path d="M44,12 C200,12 240,4 377,12 S560,20 711,12 S900,4 1000,12"/></svg><span class="fam-node" style="left:calc(0.000% + 50px)"></span><span class="fam-node" style="left:calc(33.333% + 50px)"></span><span class="fam-node" style="left:calc(66.667% + 50px)"></span></div></div></div></section><!--/fam:juntos-->
+
+<!--fam:baixar--><section class="fam-get" id="baixar"><div class="wrap"><div class="app-ic" style="--c:#B07CFF"><svg viewBox="0 0 24 24" fill="none" stroke="#111" style="color:#111" aria-hidden="true"><path d="M12 2.5c4.3 3.2 7.5 6.8 7.5 11a7.5 7.5 0 0 1-15 0c0-4.2 3.2-7.8 7.5-11z" stroke-width="3"/><path d="M12 9c1.8 1.6 2.8 3.2 2.8 4.8a2.8 2.8 0 0 1-5.6 0c0-1.6 1-3.2 2.8-4.8z" fill="currentColor" stroke="none"/></svg></div><h2>Baixe o Onion.</h2><p class="lead"><b>Grátis e no seu computador.</b> Na primeira abertura ele baixa o motor de separação.</p><a class="btn" href="https://github.com/lucasegydio/onion/releases/latest/download/Onion-instalador.exe">Baixar para Windows</a><small>Versão 0.9.3 · 205 MB · Windows 10 e 11 · Mac em breve · <a href="#instalar" data-open="instalar">Primeira vez</a></small></div></section><!--/fam:baixar-->
+
+<section class="faq" id="perguntas">
+  <div class="wrap faq-in">
+    <h2>Perguntas.</h2>
+    <details><summary>Qual é a qualidade?</summary><p>A voz sai muito limpa: o BS-Roformer é um dos melhores modelos abertos pra voz hoje. Bateria e baixo saem do Demucs v4. Guitarra sai razoável; piano ainda vaza bastante, é o limite do modelo. Música com fonte ruim, como vídeo da internet ou MP3 de baixa taxa, dá stems com mais ruído.</p></details>
+    <details id="placa"><summary>Precisa de placa de vídeo?</summary><p>Não, mas faz muita diferença. Com uma placa NVIDIA a separação leva de 25 segundos a 2 minutos e meio por faixa. Só no processador funciona, mas pode passar de 10 minutos por faixa.</p></details>
+    <details id="espaco"><summary>Quanto espaço ocupa?</summary><p>Na primeira abertura o Onion baixa o motor de separação: 5,6 GB com placa NVIDIA, 1,5 GB sem. Os modelos ocupam mais 1,1 GB e são baixados na primeira vez que cada modo é usado. Cada faixa separada ocupa de 35 a 75 MB em FLAC. Tudo vem das fontes oficiais e dá pra apagar pelos Ajustes.</p></details>
+    <details><summary>Posso usar os stems num set ou numa produção?</summary><p>Os arquivos são seus pra tocar, treinar e remixar. Pra lançar uma faixa feita com stems de outro artista, a autorização continua sendo do artista ou da gravadora.</p></details>
+    <details><summary>Funciona junto com o Vision?</summary><p>Sim. O Vision separa com o mesmo motor e abre os stems nos pads do deck, com mudo, solo e volume por stem.</p></details>
+    <details id="instalar"><summary>Como instalar no Windows?</summary><p>Baixe o instalador e abra. Como ele ainda não tem assinatura digital, o Windows pode mostrar "O Windows protegeu o computador": clique em "Mais informações" e depois em "Executar assim mesmo". A instalação não pede administrador.</p></details>
+    <details><summary>E no Mac?</summary><p>A versão para Mac está em preparação.</p></details>
+  </div>
+</section>
+
+</main>
+
+<!--fam:rodape--><footer class="fam-foot"><div class="wrap"><div class="fam-cols"><div><b>Programas</b><a href="https://lucasegydio.github.io/soundboy/">SoundBoy</a><a href="https://lucasegydio.github.io/vision/">Vision</a><a href="https://lucasegydio.github.io/onion/">Onion</a></div><div><b>Baixar para Windows</b><a href="https://github.com/lucasegydio/soundboy/releases/latest/download/SoundBoy-instalador.exe">SoundBoy</a><a href="https://github.com/lucasegydio/vision/releases/latest/download/Vision-instalador.exe">Vision</a><a href="https://github.com/lucasegydio/onion/releases/latest/download/Onion-instalador.exe">Onion</a></div><div><b>Mais</b><a href="https://lucasegydio.github.io/">mind</a><a href="#perguntas">Perguntas</a><a href="https://github.com/lucasegydio/onion/releases">Versões anteriores</a></div></div><p class="fam-note">Telas gravadas no próprio Onion. Separação feita com Demucs (Meta, MIT) e BS-Roformer via python-audio-separator; os pesos do BS-Roformer (viperx) são de uso não comercial, e cada modelo segue a licença do autor. O Onion baixa os pesos da fonte original; eles não vêm no instalador.</p><div class="fam-base"><b>Engineering by Colapse</b></div></div></footer><!--/fam:rodape-->
+</body>
+</html>

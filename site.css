@@ -1,0 +1,24 @@
+/* Onion · a cor e a cebola; o resto vem do familia.css */
+:root { --acc: #B07CFF; }
+
+.cebola-wrap { margin-top: 40px; }
+.cebola { width: min(560px, 92vw); aspect-ratio: 1; margin: 0 auto; position: relative; }
+.cebola canvas { width: 100% !important; height: 100% !important; }
+.cebola::after { content: ""; position: absolute; left: 22%; right: 22%; bottom: 6%; height: 7%; border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(60,30,110,.22), transparent); z-index: -1; }
+.cebola.sem-3d { background: url(img/onion-cebola.webp) center / contain no-repeat; }
+.stems { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+.stems button { display: inline-flex; align-items: center; gap: 9px; padding: 9px 16px 9px 10px; border: 0; border-radius: 999px;
+  background: var(--soft); color: var(--ink); font: 600 15px/1 var(--f); cursor: pointer; transition: background .2s, transform .2s; }
+.stems button::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--c); }
+.stems button:hover { transform: translateY(-1px); }
+.stems button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+.modos { margin-top: 56px; }
+.modos .card h3 { font-size: 24px; }
+.times { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 56px; }
+.times > div { background: var(--soft); border-radius: 28px; padding: 36px; }
+.times b { display: block; font-size: clamp(48px, 5vw, 72px); letter-spacing: -.05em; line-height: 1; font-variant-numeric: tabular-nums; }
+.times span { display: block; margin-top: 10px; color: var(--mut); font-weight: 500; }
+@media (max-width: 1000px) { .modos { --n: 3 !important; } }
+@media (max-width: 860px) { .times { grid-template-columns: 1fr; } }
